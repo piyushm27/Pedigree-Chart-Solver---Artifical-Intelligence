@@ -14,7 +14,7 @@
 
  
 ### Function:
-#### **The function of this program is to take the formatted input file, find which pattern of inheritance fits the pedigree chart and give a set of genotype values to the chart which fits in.**
+#### *The function of this program is to take the formatted input file, find which pattern of inheritance fits the pedigree chart and give a set of genotype values to the chart which fits in.*
 
 ### Description of directories:
 
