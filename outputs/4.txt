@@ -1,0 +1,116 @@
+('Node successfully made for: ', (1, 1))
+('Phenotype: ', 0, ' set for node: ', 'I1')
+('Gender of Node: ', 'I1', ' marked as ', 1)
+('Set [None] parents of level I node: ', 'I1')
+('Child: ', (2, 2), ' added to node: ', 'I1')
+('Child: ', (2, 3), ' added to node: ', 'I1')
+('Child: ', (2, 5), ' added to node: ', 'I1')
+('Node successfully made for: ', (1, 2))
+('Phenotype: ', 1, ' set for node: ', 'I2')
+('Gender of Node: ', 'I2', ' marked as ', 2)
+('Set [None] parents of level I node: ', 'I2')
+('Child: ', (2, 2), ' added to node: ', 'I2')
+('Child: ', (2, 3), ' added to node: ', 'I2')
+('Child: ', (2, 5), ' added to node: ', 'I2')
+('Node successfully made for: ', (2, 1))
+('Phenotype: ', 0, ' set for node: ', 'II1')
+('Gender of Node: ', 'II1', ' marked as ', 1)
+('New to family: ', 'II1')
+('Child: ', (3, 1), ' added to node: ', 'II1')
+('Child: ', (3, 2), ' added to node: ', 'II1')
+('Node successfully made for: ', (2, 2))
+('Phenotype: ', 0, ' set for node: ', 'II2')
+('Gender of Node: ', 'II2', ' marked as ', 2)
+('Set parents of node: ', 'II2', ' as ', ((1, 1), (1, 2)))
+('Child: ', (3, 1), ' added to node: ', 'II2')
+('Child: ', (3, 2), ' added to node: ', 'II2')
+('Node successfully made for: ', (2, 3))
+('Phenotype: ', 1, ' set for node: ', 'II3')
+('Gender of Node: ', 'II3', ' marked as ', 1)
+('Set parents of node: ', 'II3', ' as ', ((1, 1), (1, 2)))
+('Child: ', (3, 3), ' added to node: ', 'II3')
+('Child: ', (3, 4), ' added to node: ', 'II3')
+('Node successfully made for: ', (2, 4))
+('Phenotype: ', 0, ' set for node: ', 'II4')
+('Gender of Node: ', 'II4', ' marked as ', 2)
+('New to family: ', 'II4')
+('Child: ', (3, 3), ' added to node: ', 'II4')
+('Child: ', (3, 4), ' added to node: ', 'II4')
+('Node successfully made for: ', (2, 5))
+('Phenotype: ', 1, ' set for node: ', 'II5')
+('Gender of Node: ', 'II5', ' marked as ', 2)
+('Set parents of node: ', 'II5', ' as ', ((1, 1), (1, 2)))
+('Child: ', (3, 5), ' added to node: ', 'II5')
+('Child: ', (3, 6), ' added to node: ', 'II5')
+('Node successfully made for: ', (2, 6))
+('Phenotype: ', 0, ' set for node: ', 'II6')
+('Gender of Node: ', 'II6', ' marked as ', 1)
+('New to family: ', 'II6')
+('Child: ', (3, 5), ' added to node: ', 'II6')
+('Child: ', (3, 6), ' added to node: ', 'II6')
+('Node successfully made for: ', (3, 1))
+('Phenotype: ', 0, ' set for node: ', 'III1')
+('Gender of Node: ', 'III1', ' marked as ', 2)
+('Set parents of node: ', 'III1', ' as ', ((2, 1), (2, 2)))
+('Node successfully made for: ', (3, 2))
+('Phenotype: ', 0, ' set for node: ', 'III2')
+('Gender of Node: ', 'III2', ' marked as ', 2)
+('Set parents of node: ', 'III2', ' as ', ((2, 1), (2, 2)))
+('Node successfully made for: ', (3, 3))
+('Phenotype: ', 1, ' set for node: ', 'III3')
+('Gender of Node: ', 'III3', ' marked as ', 2)
+('Set parents of node: ', 'III3', ' as ', ((2, 3), (2, 4)))
+('Node successfully made for: ', (3, 4))
+('Phenotype: ', 1, ' set for node: ', 'III4')
+('Gender of Node: ', 'III4', ' marked as ', 1)
+('Set parents of node: ', 'III4', ' as ', ((2, 3), (2, 4)))
+('Node successfully made for: ', (3, 5))
+('Phenotype: ', 1, ' set for node: ', 'III5')
+('Gender of Node: ', 'III5', ' marked as ', 1)
+('Set parents of node: ', 'III5', ' as ', ((2, 6), (2, 5)))
+('Node successfully made for: ', (3, 6))
+('Phenotype: ', 0, ' set for node: ', 'III6')
+('Gender of Node: ', 'III6', ' marked as ', 1)
+('Set parents of node: ', 'III6', ' as ', ((2, 6), (2, 5)))
+||||||||||||||||||||||||||||||||||||
+CHART HAS BEEN MADE
+||||||||||||||||||||||||||||||||||||
+
+Pattern of Inheritance: Autosomal dominant fits
+
+The genotypes of the individuals are as follows:
+I2 : aa
+III2 : AA
+II6 : Aa
+III3 : aa
+III1 : AA
+II1 : Aa
+I1 : Aa
+II3 : aa
+III6 : Aa
+II2 : Aa
+II5 : aa
+III4 : aa
+II4 : Aa
+III5 : aa
+
+Pattern of Inheritance: Autosomal recessive fits
+
+The genotypes of the individuals are as follows:
+I2 : Aa
+III2 : AA
+II6 : AA
+III3 : aA
+III1 : AA
+II1 : AA
+I1 : AA
+II3 : Aa
+III6 : AA
+II2 : AA
+II5 : Aa
+III4 : aA
+II4 : AA
+III5 : Aa
+Pattern of Inheritance: X-linked dominant does't fit
+Pattern of Inheritance: X-linked recessive does't fit
+Pattern of Inheritance: Y-linked does't fit

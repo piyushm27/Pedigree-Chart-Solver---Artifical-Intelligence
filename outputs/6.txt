@@ -1,0 +1,184 @@
+('Node successfully made for: ', (1, 1))
+('Phenotype: ', 0, ' set for node: ', 'I1')
+('Gender of Node: ', 'I1', ' marked as ', 1)
+('Set [None] parents of level I node: ', 'I1')
+('Child: ', (2, 2), ' added to node: ', 'I1')
+('Child: ', (2, 3), ' added to node: ', 'I1')
+('Node successfully made for: ', (1, 2))
+('Phenotype: ', 1, ' set for node: ', 'I2')
+('Gender of Node: ', 'I2', ' marked as ', 2)
+('Set [None] parents of level I node: ', 'I2')
+('Child: ', (2, 2), ' added to node: ', 'I2')
+('Child: ', (2, 3), ' added to node: ', 'I2')
+('Node successfully made for: ', (1, 3))
+('Phenotype: ', 0, ' set for node: ', 'I3')
+('Gender of Node: ', 'I3', ' marked as ', 2)
+('Set [None] parents of level I node: ', 'I3')
+('Child: ', (2, 4), ' added to node: ', 'I3')
+('Child: ', (2, 5), ' added to node: ', 'I3')
+('Child: ', (2, 6), ' added to node: ', 'I3')
+('Node successfully made for: ', (1, 4))
+('Phenotype: ', 0, ' set for node: ', 'I4')
+('Gender of Node: ', 'I4', ' marked as ', 1)
+('Set [None] parents of level I node: ', 'I4')
+('Child: ', (2, 4), ' added to node: ', 'I4')
+('Child: ', (2, 5), ' added to node: ', 'I4')
+('Child: ', (2, 6), ' added to node: ', 'I4')
+('Node successfully made for: ', (2, 1))
+('Phenotype: ', 0, ' set for node: ', 'II1')
+('Gender of Node: ', 'II1', ' marked as ', 2)
+('New to family: ', 'II1')
+('Child: ', (3, 2), ' added to node: ', 'II1')
+('Child: ', (3, 3), ' added to node: ', 'II1')
+('Child: ', (3, 4), ' added to node: ', 'II1')
+('Node successfully made for: ', (2, 2))
+('Phenotype: ', 0, ' set for node: ', 'II2')
+('Gender of Node: ', 'II2', ' marked as ', 1)
+('Set parents of node: ', 'II2', ' as ', ((1, 1), (1, 2)))
+('Child: ', (3, 2), ' added to node: ', 'II2')
+('Child: ', (3, 3), ' added to node: ', 'II2')
+('Child: ', (3, 4), ' added to node: ', 'II2')
+('Node successfully made for: ', (2, 3))
+('Phenotype: ', 1, ' set for node: ', 'II3')
+('Gender of Node: ', 'II3', ' marked as ', 2)
+('Set parents of node: ', 'II3', ' as ', ((1, 1), (1, 2)))
+('Child: ', (3, 5), ' added to node: ', 'II3')
+('Child: ', (3, 6), ' added to node: ', 'II3')
+('Child: ', (3, 7), ' added to node: ', 'II3')
+('Child: ', (3, 8), ' added to node: ', 'II3')
+('Node successfully made for: ', (2, 4))
+('Phenotype: ', 1, ' set for node: ', 'II4')
+('Gender of Node: ', 'II4', ' marked as ', 1)
+('Set parents of node: ', 'II4', ' as ', ((1, 4), (1, 3)))
+('Child: ', (3, 5), ' added to node: ', 'II4')
+('Child: ', (3, 6), ' added to node: ', 'II4')
+('Child: ', (3, 7), ' added to node: ', 'II4')
+('Child: ', (3, 8), ' added to node: ', 'II4')
+('Node successfully made for: ', (2, 5))
+('Phenotype: ', 0, ' set for node: ', 'II5')
+('Gender of Node: ', 'II5', ' marked as ', 1)
+('Set parents of node: ', 'II5', ' as ', ((1, 4), (1, 3)))
+('Node successfully made for: ', (2, 6))
+('Phenotype: ', 0, ' set for node: ', 'II6')
+('Gender of Node: ', 'II6', ' marked as ', 2)
+('Set parents of node: ', 'II6', ' as ', ((1, 4), (1, 3)))
+('Child: ', (3, 9), ' added to node: ', 'II6')
+('Child: ', (3, 10), ' added to node: ', 'II6')
+('Node successfully made for: ', (2, 7))
+('Phenotype: ', 1, ' set for node: ', 'II7')
+('Gender of Node: ', 'II7', ' marked as ', 1)
+('Set parents of node: ', 'II7', ' as ', ((1, 4), (1, 3)))
+('Child: ', (3, 9), ' added to node: ', 'II7')
+('Child: ', (3, 10), ' added to node: ', 'II7')
+('Node successfully made for: ', (3, 1))
+('Phenotype: ', 0, ' set for node: ', 'III1')
+('Gender of Node: ', 'III1', ' marked as ', 1)
+('New to family: ', 'III1')
+('Child: ', (4, 1), ' added to node: ', 'III1')
+('Node successfully made for: ', (3, 2))
+('Phenotype: ', 1, ' set for node: ', 'III2')
+('Gender of Node: ', 'III2', ' marked as ', 2)
+('Set parents of node: ', 'III2', ' as ', ((2, 2), (2, 1)))
+('Child: ', (4, 1), ' added to node: ', 'III2')
+('Node successfully made for: ', (3, 3))
+('Phenotype: ', 0, ' set for node: ', 'III3')
+('Gender of Node: ', 'III3', ' marked as ', 1)
+('Set parents of node: ', 'III3', ' as ', ((2, 2), (2, 1)))
+('Node successfully made for: ', (3, 4))
+('Phenotype: ', 0, ' set for node: ', 'III4')
+('Gender of Node: ', 'III4', ' marked as ', 1)
+('Set parents of node: ', 'III4', ' as ', ((2, 2), (2, 1)))
+('Node successfully made for: ', (3, 5))
+('Phenotype: ', 1, ' set for node: ', 'III5')
+('Gender of Node: ', 'III5', ' marked as ', 1)
+('Set parents of node: ', 'III5', ' as ', ((2, 4), (2, 3)))
+('Node successfully made for: ', (3, 6))
+('Phenotype: ', 1, ' set for node: ', 'III6')
+('Gender of Node: ', 'III6', ' marked as ', 2)
+('Set parents of node: ', 'III6', ' as ', ((2, 4), (2, 3)))
+('Node successfully made for: ', (3, 7))
+('Phenotype: ', 1, ' set for node: ', 'III7')
+('Gender of Node: ', 'III7', ' marked as ', 2)
+('Set parents of node: ', 'III7', ' as ', ((2, 4), (2, 3)))
+('Node successfully made for: ', (3, 8))
+('Phenotype: ', 1, ' set for node: ', 'III8')
+('Gender of Node: ', 'III8', ' marked as ', 1)
+('Set parents of node: ', 'III8', ' as ', ((2, 4), (2, 3)))
+('Node successfully made for: ', (3, 9))
+('Phenotype: ', 0, ' set for node: ', 'III9')
+('Gender of Node: ', 'III9', ' marked as ', 2)
+('Set parents of node: ', 'III9', ' as ', ((2, 7), (2, 6)))
+('Node successfully made for: ', (3, 10))
+('Phenotype: ', 1, ' set for node: ', 'III10')
+('Gender of Node: ', 'III10', ' marked as ', 1)
+('Set parents of node: ', 'III10', ' as ', ((2, 7), (2, 6)))
+('Child: ', (4, 2), ' added to node: ', 'III10')
+('Child: ', (4, 3), ' added to node: ', 'III10')
+('Child: ', (4, 4), ' added to node: ', 'III10')
+('Child: ', (4, 5), ' added to node: ', 'III10')
+('Node successfully made for: ', (3, 11))
+('Phenotype: ', 0, ' set for node: ', 'III11')
+('Gender of Node: ', 'III11', ' marked as ', 2)
+('New to family: ', 'III11')
+('Child: ', (4, 2), ' added to node: ', 'III11')
+('Child: ', (4, 3), ' added to node: ', 'III11')
+('Child: ', (4, 4), ' added to node: ', 'III11')
+('Child: ', (4, 5), ' added to node: ', 'III11')
+('Node successfully made for: ', (4, 1))
+('Phenotype: ', 1, ' set for node: ', 'IV1')
+('Gender of Node: ', 'IV1', ' marked as ', 2)
+('Set parents of node: ', 'IV1', ' as ', ((3, 1), (3, 2)))
+('Node successfully made for: ', (4, 2))
+('Phenotype: ', 0, ' set for node: ', 'IV2')
+('Gender of Node: ', 'IV2', ' marked as ', 2)
+('Set parents of node: ', 'IV2', ' as ', ((3, 10), (3, 11)))
+('Node successfully made for: ', (4, 3))
+('Phenotype: ', 0, ' set for node: ', 'IV3')
+('Gender of Node: ', 'IV3', ' marked as ', 2)
+('Set parents of node: ', 'IV3', ' as ', ((3, 10), (3, 11)))
+('Node successfully made for: ', (4, 4))
+('Phenotype: ', 0, ' set for node: ', 'IV4')
+('Gender of Node: ', 'IV4', ' marked as ', 2)
+('Set parents of node: ', 'IV4', ' as ', ((3, 10), (3, 11)))
+('Node successfully made for: ', (4, 5))
+('Phenotype: ', 0, ' set for node: ', 'IV5')
+('Gender of Node: ', 'IV5', ' marked as ', 2)
+('Set parents of node: ', 'IV5', ' as ', ((3, 10), (3, 11)))
+||||||||||||||||||||||||||||||||||||
+CHART HAS BEEN MADE
+||||||||||||||||||||||||||||||||||||
+
+Pattern of Inheritance: Autosomal dominant fits
+
+The genotypes of the individuals are as follows:
+I3 : Aa
+III11 : AA
+II1 : Aa
+III7 : aa
+II5 : AA
+I2 : aa
+III3 : AA
+III10 : aa
+IV4 : aA
+III6 : aa
+II2 : Aa
+IV1 : aa
+I1 : Aa
+III2 : aa
+II6 : Aa
+IV5 : aA
+I4 : Aa
+III9 : aA
+II3 : aa
+IV2 : aA
+III5 : aa
+II7 : aa
+III1 : Aa
+III8 : aa
+IV3 : aA
+III4 : AA
+II4 : aa
+Pattern of Inheritance: Autosomal recessive does't fit
+Pattern of Inheritance: X-linked dominant does't fit
+Pattern of Inheritance: X-linked recessive does't fit
+Pattern of Inheritance: Y-linked does't fit

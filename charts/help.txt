@@ -1,0 +1,51 @@
+###This file has the descrition for conversion of pedigree charts which are to be kept in this folder into text files which are to be kept in "../inputs" folder###
+
+##Please take help from "reference_chart.png" to understand the meaning of all the symbols
+
+## The first line of all the text files contains description of the file after character "#" without quotes. Example- "#position|phenotype|gender|father|mother|no. of children|no. of identical siblings|child1|child2|....|childn|sibling1|sibling2|...|sibingn" 
+
+## All the lines which have information about the nodes should begin with ">" without quotes
+
+Shown beow is example of conversion of "1.png" to "1.txt"
+'''
+#position|phenotype|gender|father|mother|no. of children|no. of identical siblings|child1|child2|....|childn|sibling1|sibling2|...|sibingn
+>(1,1)|0|1|0|0|3|0|(2,1)|(2,3)|(2,5)
+>(1,2)|0|2|0|0|3|0|(2,1)|(2,3)|(2,5)
+>(2,1)|0|2|(1,1)|(1,2)|1|0|(3,2)
+>(2,2)|0|1|0|0|1|0|(3,2)
+>(2,3)|1|1|(1,1)|(1,2)|2|0|(3,3)|(3,4)
+>(2,4)|0|2|0|0|2|0|(3,3)|(3,4)
+>(2,5)|0|2|(1,1)|(1,2)|2|0|(3,5)|(3,6)
+>(2,6)|0|1|0|0|2|0|(3,5)|(3,6)
+>(3,1)|0|1|0|0|2|0|(4,1)|(4,2)
+>(3,2)|0|2|(3,1)|(3,2)|2|0|(4,1)|(4,2)
+>(3,3)|0|1|(2,3)|(2,4)|0|0
+>(3,4)|0|2|(2,3)|(2,4)|0|0
+>(3,5)|1|1|(2,5)|(2,6)|0|0
+>(3,6)|0|2|(2,5)|(2,6)|0|0
+>(4,1)|1|1|(3,1)|(3,2)|0|0
+>(4,2)|0|2|(3,1)|(3,2)|0|0
+'''
+
+# As shown above, all the information is to be separated by "|" without quotes.
+
+#position has "(X1,X2)" syntax where X1 is the level of generation and X2 is the position in that generation
+
+#phenotype is 0 when non-affected shown by blank, 1 when affected shown by colored, 2 when a carrier shown with a dot inside the symbol
+
+#gender is 1 when male (square), 2 when female(circle), 0 when sex is unspecified(diamond)(rare case) 
+
+#father is the position of father with the same syntax as 'position'. Send 0 in case there is no father shown(new to family)
+
+#motheris the position of mother with the same syntax as 'position'. Send 0 in case there is no mother shown(new to family)
+
+#no. of children has 'n' as the no. of children coming out of the subtree from the individual and its spouse
+
+#no. of identical siblings has 'm' as the no. of monozygotic identical sibling(identical twin) linked with this individual
+
+#child1|child2|....|childn: next n slots contain the position of the children of the individual
+
+#sibling1|sibling2|...|sibingn: next m slots contain the position of the identical siblings of the individual
+
+
+###Thank you <3###
