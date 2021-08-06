@@ -1,5 +1,5 @@
 ## Pedigree Chart Solver - Artifical-Intelligence
-###### [currently not-functional]
+###### [currently non-functional]
 #### This is an artifical intelligence based solution to genetic pedigree charts. The program considers them as a constraint satisfaction problem (CSP) and solves them using search algorithms for CSPs. 
 #### It takes input of pedigree charts as text files in a particular format[A file explaining the input and output formats will be added soon]. The generation of these text files can be automated with the help of image processing. 
 
