@@ -37,9 +37,6 @@ Descrition of files:
 "problem.py"
 - the file that stores important classes and function used in solvin ghte problem
 
-"test.py" an "test2.py"
-- these are files to try a code snippet
-
 "util.py"
 - this file stores a few important functions and data structures used for solving this problem. 
 - PS- Some functions and data structures in this file are take from open source which are well cited.
